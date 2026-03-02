@@ -1,0 +1,11 @@
+body { font-family: sans-serif; background: #f4f7f6; padding: 20px; }
+.container { max-width: 900px; margin: auto; }
+.card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; }
+button { padding: 8px 12px; cursor: pointer; border: none; border-radius: 4px; }
+#saveBtn { background: #2ecc71; color: white; }
+.btn-bulk { background: #3498db; color: white; }
+.btn-edit { background: #f1c40f; }
+.btn-delete { background: #e74c3c; color: white; }
+input { display: block; width: 100%; margin-bottom: 10px; padding: 8px; box-sizing: border-box; }
