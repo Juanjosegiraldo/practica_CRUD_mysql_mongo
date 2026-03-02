@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (Secretos)
+.env
+
+# Archivos subidos (Temporales del Multer)
+uploads/*.csv
+uploads/*
+
+# Logs de error
+npm-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db

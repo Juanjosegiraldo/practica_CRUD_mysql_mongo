@@ -1,0 +1,26 @@
+npm init -y
+npm install express mysql2 mongoose multer csv-parser dotenv cors nodemon
+npm install vite --save-dev
+cambiamos en el package-json el  "type": "commonjs" por "type": "module", para usar ESModules
+cargar archivos .sql
+crear archivo .env
+crear archivo server.js (backend)
+copiar en script de package-json: "server": "nodemon server.js" 
+
+--limpiar base de datos:
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE TABLE appointments;
+TRUNCATE TABLE medications;
+TRUNCATE TABLE patients;
+TRUNCATE TABLE doctors;
+-- Si tienes tabla de seguros, también:
+-- TRUNCATE TABLE insurances;
+
+SET FOREIGN_KEY_CHECKS = 1;
+--Termina aquí
+
+
+
+
+
